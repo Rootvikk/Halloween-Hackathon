@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halloween History</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&family=Creepster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">🎃 Halloween History 🎃</div>
+            <ul class="nav-links">
+                <li><a href="#origins">Origins</a></li>
+                <li><a href="#celebrate">Celebrate</a></li>
+                <li><a href="#costumes">Costumes</a></li>
+            </ul>
+            <button id="toggle-night" class="toggle-button" onclick="toggleNightMode()">🌙 Night Mode</button>
+        </nav>
+    </header>
+
+    <div class="stars">
+        <!-- Stars for night mode -->
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+    </div>
+    <div id="pumpkin-container">
+        <img src="pumpkin.png" class="pumpkin" alt="Pumpkin">
+        <img src="pumpkin.png" class="pumpkin" alt="Pumpkin">
+        <img src="pumpkin.png" class="pumpkin" alt="Pumpkin">
+        <img src="pumpkin.png" class="pumpkin" alt="Pumpkin">
+        <img src="pumpkin.png" class="pumpkin" alt="Pumpkin">
+    </div>
+    
+
+    <section class="hero">
+        <h1>Welcome to the Spooky World of Halloween!</h1>
+        <p>Discover the origins, traditions, and enchanting costumes of this mystical night.</p>
+        <a href="#origins" class="cta-button">Explore</a>
+    </section>
+    <section id="origins" class="content-section">
+        <section><h2 class="title"> Origins of Halloween </h2></section>
+        <p>Halloween, celebrated on October 31st, originated from the ancient Celtic festival of Samhain, which marked the end of the harvest season and the beginning of winter. The Celts believed the boundary between the living and the dead blurred on this night, allowing spirits to roam. To protect themselves, people lit bonfires and wore animal skin costumes. As Christianity spread, the festival evolved into All Hallows' Eve, which later became Halloween. By the 19th century, Irish immigrants brought Halloween customs to America, introducing practices like trick-or-treating. Today, Halloween is a festive celebration blending ancient traditions with modern festivities, from haunted houses to costume parties, preserving its rich history.</p>
+        <img src="img1.jpg" alt="Halloween Image" class="section-image">
+    </section>
+
+    <section id="celebrate" class="content-section">
+        <h2 class="title"> Why Do We Celebrate Halloween Today? </h2>
+        <p>Halloween has evolved from its ancient origins into a widely celebrated holiday full of fun and excitement. It blends cultural, social, and commercial elements, honoring its roots while embracing new customs like decorating homes, carving pumpkins, and hosting themed parties. Dressing up in costumes, whether whimsical or scary, allows for creative self-expression. For children, trick-or-treating is a key tradition that fosters community interaction. Halloween also offers thrills through haunted houses, horror movies, and ghost stories, creating an exciting atmosphere. With its commercial success, Halloween has become a major event in the economy, while continuing to bring people together in celebration.</p>
+        <img src="img2.jpg" alt="Halloween Image" class="section-image">
+    </section>
+
+    <section id="costumes" class="content-section">
+        
+        <h2 class="title"> The Tradition of Costumes </h2>
+        <p>The tradition of wearing costumes on Halloween dates back to the ancient Celtic festival of Samhain, where people wore animal skin costumes to protect themselves from roaming spirits. As Halloween evolved, especially with the influence of Christianity, costumes became a form of playful expression. In the 19th century, Irish immigrants popularized the custom in America, turning it into a community-centered celebration. Over time, costumes shifted from being a form of protection to a fun and creative way to celebrate the holiday. Today, Halloween costumes range from spooky to whimsical, reflecting trends, pop culture, and creativity. The tradition allows everyone to explore different identities, whether through traditional, modern, or funny costumes. It fosters joy and community, with people of all ages coming together to celebrate and embrace the spirit of the holiday.</p>
+        <img src="img3.png" alt="Halloween Image" class="section-image">
+    </section>
+
+    <section id="costume-ideas" class="content-section">
+        <h2>🧙‍♀️ Costume Ideas for This Year</h2>
+        <ul>
+            <li><strong>A Whimsical Witch:</strong> Adorn yourself in a flowing gown adorned with twinkling stars...</li>
+            <li><strong>A Friendly Ghost:</strong> Embrace the spirit of Halloween with a flowing white sheet...</li>
+            <li><strong>A Dapper Pumpkin:</strong> Transform into a charming pumpkin with a green hat...</li>
+            <li><strong>A Sinister Skeleton:</strong> Dazzle and fright with a glow-in-the-dark skeleton suit...</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Halloween Hackathon.</p>
+        <button class="pumpkin-button" onclick="startPumpkinAnimation()"> Pumpkin Magic </button>
+  <div class="pumpkin-animation"></div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
